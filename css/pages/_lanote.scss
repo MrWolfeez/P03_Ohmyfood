@@ -1,3 +1,84 @@
-h1 {
-    color: red;
-}
+/*corps de page */
+
+body {
+    margin: 0;
+  }
+  
+  /*ligne séparation before et after plus backgroud titre en blanc */
+  
+  h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Caveat;
+    font-weight: bold;
+  
+    &.background {
+      position: relative;
+      z-index: 1;
+  
+      &:before {
+        border-top: 2px solid black;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 95%;
+        z-index: -1;
+      }
+  
+      span {
+        background: #fcdfdb;
+        padding: 0 50px;
+      }
+    }
+  }
+  
+  /*le titre du menus h2 plus grand que les autres*/
+  
+  .titre {
+    font-size: 283%;
+  }
+  
+  /*table des prix et menu */
+  
+  table, td, th {
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 23px;
+    font-family: Caveat;
+    margin: 21px;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  /*la note de musique*/
+  
+  .music {
+    background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+  }
+  
+  /*prix en gras */
+  
+  .grasprix {
+    font-weight: bold;
+  }
+  
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcdfdb;
+    margin: 12%;
+    padding: 31px;
+  }
