@@ -1,138 +1,102 @@
-/*corps de page */
 
-body {
-    margin: 0;
-  }
-  
-  /*ligne séparation before et after plus backgroud titre en blanc */
-  
-  h2 {
-    font: 33px sans-serif;
-    margin-top: 30px;
-    text-align: center;
-    font-family: Old Standard TT;
-  
-    &.background1 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #c67412;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        color: #c67412;
-        font-weight: bold;
-        background: #fff5fe;
-        padding: 2px 50px;
-      }
+/*2_lechic*/
+/*lechic*/
+h2 {
+  font: 33px sans-serif;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Old Standard TT;
+
+  &.background1 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #c67412;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
     }
-  
-    &.background2 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #a56799;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        color: #a56799;
-        font-weight: bold;
-        background: #fff5fe;
-        padding: 2px 50px;
-      }
-    }
-  
-    &.background3 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #6e4ccc;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        color: #6e4ccc;
-        font-weight: bold;
-        background: #fff5fe;
-        padding: 2px 50px;
-      }
+
+    span {
+      color: #c67412;
+      font-weight: bold;
+      background: #fff5fe;
+      padding: 2px 50px;
     }
   }
-  
-  /*le titre du menus h2 plus grand que les autres*/
-  
-  .titre {
-    font-size: 290%;
-    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-bottom: 8%;
-    font-weight: bold;
+
+  &.background2 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #a56799;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+
+    span {
+      color: #a56799;
+      font-weight: bold;
+      background: #fff5fe;
+      padding: 2px 50px;
+    }
   }
-  
-  .fontcolor1 {
-    color: #c67412;
+
+  &.background3 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #6e4ccc;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+
+    span {
+      color: #6e4ccc;
+      font-weight: bold;
+      background: #fff5fe;
+      padding: 2px 50px;
+    }
   }
-  
-  .fontcolor2 {
-    color: #a56799;
-  }
-  
-  .fontcolor3 {
-    color: #6e4ccc;
-  }
-  
-  /*table des prix et menu */
-  
-  table, td, th {
-    text-align: left;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 83%;
-    font-size: 23px;
-    font-family: Old Standard TT;
-    margin-left: 66px;
-  }
-  
-  th, td {
-    padding: 15px;
-  }
-  
-  .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fff5fe;
-    margin: 12%;
-    padding: 31px;
-    padding-bottom: 22%;
-  }
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Old Standard TT;
+  font-weight: bold;
+  font-size: 165%;
+  background-color: #fff5fe;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+.table2 {
+  border-collapse: collapse;
+  width: 83%;
+  font-size: 23px;
+  font-family: Old Standard TT;
+  margin-left: 66px;
+}

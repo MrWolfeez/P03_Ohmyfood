@@ -1,120 +1,103 @@
-/*corps de page */
+/*3_ledélice*/
+/*ledélice*/
+h2 {
+  font: 33px sans-serif;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Dancing Script;
 
-body {
-    margin: 0;
-  }
-  
-  /*ligne séparation before et after plus backgroud titre en blanc */
-  
-  h2 {
-    font: 33px sans-serif;
-    margin-top: 30px;
-    text-align: center;
-    font-family: Dancing Script;
-  
-    &.background1 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #0228dd;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        background: #f9f9f9;
-        padding: 2px 50px;
-      }
+  &.background1 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #0228dd;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
     }
-  
-    &.background2 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #0670f3;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        background: #f9f9f9;
-        padding: 2px 50px;
-      }
-    }
-  
-    &.background3 {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background: #229df9;
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        background: #f9f9f9;
-        padding: 2px 50px;
-      }
+
+    span {
+      background: #f9f9f9;
+      padding: 2px 50px;
     }
   }
-  
-  /*le titre du menus h2 plus grand que les autres*/
-  
-  .titre {
-    font-size: 290%;
-    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-bottom: 8%;
-    font-weight: bold;
+
+  &.background2 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #0670f3;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+
+    span {
+      background: #f9f9f9;
+      padding: 2px 50px;
+    }
   }
-  
-  /*table des prix et menu */
-  
-  table, td, th {
-    text-align: left;
+
+  &.background3 {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background: #229df9;
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+
+    span {
+      background: #f9f9f9;
+      padding: 2px 50px;
+    }
   }
-  
-  table {
-    border-collapse: collapse;
-    width: 83%;
-    font-size: 23px;
-    font-family: Dancing Script;
-    margin-left: 66px;
-  }
-  
-  th, td {
-    padding: 15px;
-  }
-  
-  .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #f9f9f9;
-    margin: 12%;
-    padding: 31px;
-    padding-bottom: 22%;
-  }
+}
+
+.table3 {
+  border-collapse: collapse;
+  width: 83%;
+  font-size: 23px;
+  font-family: Dancing Script;
+  margin-left: 66px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+/*lechic.html couleur de police x3 différente*/
+.fontcolor1 {
+  color: #c67412;
+}
+.fontcolor2 {
+  color: #a56799;
+}
+.fontcolor3 {
+  color: #6e4ccc;
+}

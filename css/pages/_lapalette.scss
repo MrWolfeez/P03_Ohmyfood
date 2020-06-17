@@ -1,78 +1,40 @@
-/*corps de page */
 
-body {
-    margin: 0;
-  }
-  
-  /*ligne séparation before et after plus backgroud titre en blanc */
-  
-  h2 {
-    font: 33px sans-serif;
-    margin-top: 30px;
-    text-align: center;
-    font-family: Caveat;
-  
-    &.background {
-      position: relative;
-      z-index: 1;
-  
-      &:before {
-        background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
-        content: "";
-        margin: 14px auto;
-        position: absolute;
-        top: 2%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 95%;
-        z-index: -1;
-      }
-  
-      span {
-        background: #fdfffd;
-        padding: 2px 50px;
-      }
+/*4_lapalette*/
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fdfffd;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+/*lapalette*/
+h2 {
+  font: 33px sans-serif;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Caveat;
+
+  &.background {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
+      content: "";
+      margin: 14px auto;
+      position: absolute;
+      top: 2%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+
+    span {
+      background: #fdfffd;
+      padding: 2px 50px;
     }
   }
-  
-  /*le titre du menus h2 plus grand que les autres*/
-  
-  .titre {
-    font-size: 283%;
-  }
-  
-  .lapalette {
-    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 290%;
-    font-family: Merienda One;
-    padding-top: 4%;
-  }
-  
-  /*table des prix et menu */
-  
-  table, td, th {
-    text-align: left;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 83%;
-    font-size: 23px;
-    font-family: Caveat;
-    margin-left: 66px;
-  }
-  
-  th, td {
-    padding: 15px;
-  }
-  
-  .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fdfffd;
-    margin: 12%;
-    padding: 31px;
-    padding-bottom: 22%;
-  }
+}
