@@ -9,7 +9,20 @@
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
-  font-size: 165%;
+  font-size: 159%;
+  color: black;
+}
+
+.card1grand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcdfdb;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+  text-align: center;
+  font-family: Caveat;
+  font-weight: bold;
+  font-size: 159%;
 }
 
 .table1 {
@@ -21,18 +34,19 @@
 }
 
 /*lanote*/
-.titrelanote {
+h2.note {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
 }
-.titrelanote.prout {
+h2.note.backgroundnote {
   position: relative;
-  z-index: 1;
+  z-index: 5;
 }
-.titrelanote.prout:before {
+h2.note.backgroundnote:before {
+  display: none;
   border-top: 2px solid black;
   content: "";
   margin: 0 auto;
@@ -44,7 +58,10 @@
   width: 95%;
   z-index: -1;
 }
-.titrelanote.prout span {
+h2.note.backgroundnote:hover:before {
+  display: block;
+}
+h2.note.backgroundnote span {
   background: #fcdfdb;
   padding: 0 50px;
 }
@@ -67,18 +84,27 @@
   padding-bottom: 22%;
 }
 
+.card4grand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fdfffd;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+
 /*lapalette*/
-h2 {
+h2.palette {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Caveat;
 }
-h2.background {
+h2.palette.backgroundlapalette {
   position: relative;
   z-index: 1;
 }
-h2.background:before {
+h2.palette.backgroundlapalette:before {
   background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
   content: "";
   margin: 14px auto;
@@ -90,7 +116,7 @@ h2.background:before {
   width: 95%;
   z-index: -1;
 }
-h2.background span {
+h2.palette.backgroundlapalette span {
   background: #fdfffd;
   padding: 2px 50px;
 }
@@ -99,8 +125,7 @@ h2.background span {
 /*dispositions du home.html*/
 .column {
   float: left;
-  width: 48%;
-  padding: 1%;
+  width: 46%;
 }
 
 .row {
@@ -158,19 +183,25 @@ h2.background span {
   font-size: 140%;
 }
 
+.menu4 {
+  font-family: Caveat;
+  color: black;
+  font-size: 150%;
+}
+
 /*2_lechic*/
 /*lechic*/
-h2 {
+h2.chic {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Old Standard TT;
 }
-h2.background1 {
+h2.chic.backgroundchic1 {
   position: relative;
   z-index: 1;
 }
-h2.background1:before {
+h2.chic.backgroundchic1:before {
   background: #c67412;
   content: "";
   margin: 14px auto;
@@ -182,17 +213,17 @@ h2.background1:before {
   width: 95%;
   z-index: -1;
 }
-h2.background1 span {
+h2.chic.backgroundchic1 span {
   color: #c67412;
   font-weight: bold;
   background: #fff5fe;
   padding: 2px 50px;
 }
-h2.background2 {
+h2.chic.backgroundchic2 {
   position: relative;
   z-index: 1;
 }
-h2.background2:before {
+h2.chic.backgroundchic2:before {
   background: #a56799;
   content: "";
   margin: 14px auto;
@@ -204,17 +235,17 @@ h2.background2:before {
   width: 95%;
   z-index: -1;
 }
-h2.background2 span {
+h2.chic.backgroundchic2 span {
   color: #a56799;
   font-weight: bold;
   background: #fff5fe;
   padding: 2px 50px;
 }
-h2.background3 {
+h2.chic.backgroundchic3 {
   position: relative;
   z-index: 1;
 }
-h2.background3:before {
+h2.chic.backgroundchic3:before {
   background: #6e4ccc;
   content: "";
   margin: 14px auto;
@@ -226,7 +257,7 @@ h2.background3:before {
   width: 95%;
   z-index: -1;
 }
-h2.background3 span {
+h2.chic.backgroundchic3 span {
   color: #6e4ccc;
   font-weight: bold;
   background: #fff5fe;
@@ -245,27 +276,58 @@ h2.background3 span {
   padding-bottom: 22%;
 }
 
-.table2 {
+.card2grand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Old Standard TT;
+  font-weight: bold;
+  font-size: 165%;
+  background-color: #fff5fe;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+
+.tablechic1 {
   border-collapse: collapse;
   width: 83%;
   font-size: 23px;
   font-family: Old Standard TT;
   margin-left: 66px;
+  color: #c67412;
+}
+
+.tablechic2 {
+  border-collapse: collapse;
+  width: 83%;
+  font-size: 23px;
+  font-family: Old Standard TT;
+  margin-left: 66px;
+  color: #a56799;
+}
+
+.tablechic3 {
+  border-collapse: collapse;
+  width: 83%;
+  font-size: 23px;
+  font-family: Old Standard TT;
+  margin-left: 66px;
+  color: #6e4ccc;
 }
 
 /*3_ledélice*/
 /*ledélice*/
-h2 {
+h2.délice {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Dancing Script;
 }
-h2.background1 {
+h2.délice.backgrounddélice1 {
   position: relative;
   z-index: 1;
 }
-h2.background1:before {
+h2.délice.backgrounddélice1:before {
   background: #0228dd;
   content: "";
   margin: 14px auto;
@@ -277,15 +339,15 @@ h2.background1:before {
   width: 95%;
   z-index: -1;
 }
-h2.background1 span {
+h2.délice.backgrounddélice1 span {
   background: #f9f9f9;
   padding: 2px 50px;
 }
-h2.background2 {
+h2.délice.backgrounddélice2 {
   position: relative;
   z-index: 1;
 }
-h2.background2:before {
+h2.délice.backgrounddélice2:before {
   background: #0670f3;
   content: "";
   margin: 14px auto;
@@ -297,15 +359,15 @@ h2.background2:before {
   width: 95%;
   z-index: -1;
 }
-h2.background2 span {
+h2.délice.backgrounddélice2 span {
   background: #f9f9f9;
   padding: 2px 50px;
 }
-h2.background3 {
+h2.délice.backgrounddélice3 {
   position: relative;
   z-index: 1;
 }
-h2.background3:before {
+h2.délice.backgrounddélice3:before {
   background: #229df9;
   content: "";
   margin: 14px auto;
@@ -317,7 +379,7 @@ h2.background3:before {
   width: 95%;
   z-index: -1;
 }
-h2.background3 span {
+h2.délice.backgrounddélice3 span {
   background: #f9f9f9;
   padding: 2px 50px;
 }
@@ -339,6 +401,15 @@ h2.background3 span {
   padding-bottom: 22%;
 }
 
+.card3grand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+
 /*lechic.html couleur de police x3 différente*/
 .fontcolor1 {
   color: #c67412;
@@ -352,6 +423,995 @@ h2.background3 span {
   color: #6e4ccc;
 }
 
+@media screen and (max-width: 425px) {
+  .header {
+    /* content de l'avatar */
+    height: 8%;
+    font-size: 67%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 85%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin-left: 4px;
+    margin-top: -16%;
+  }
+
+  .card1 {
+    font-size: 95%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card2 {
+    font-size: 71%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card3 {
+    font-size: 37%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card4 {
+    font-size: 37%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 18px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 47%;
+  }
+
+  .row {
+    margin: 0%;
+  }
+
+  .fa-music:before {
+    font-size: 50%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 113%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60%;
+    margin-block-end: 0px;
+    margin-block-start: 47px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 113%;
+    font-family: Merienda One;
+    padding-top: 20%;
+    margin-block-end: 0px;
+    margin-block-start: 43px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 140%;
+    font-family: Dancing Script;
+    padding-bottom: 8%;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 43px;
+  }
+
+  p.next {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .header {
+    /* content de l'avatar */
+    height: 11%;
+    font-size: 85%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 85%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 48%;
+    margin-left: 12%;
+  }
+
+  .card1 {
+    font-size: 115%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card2 {
+    font-size: 94%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card3 {
+    font-size: 50%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .card4 {
+    font-size: 50%;
+    padding: 26px;
+    padding-bottom: 30%;
+    height: 21%;
+    width: 55%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 18px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row {
+    margin: 3%;
+  }
+
+  .fa-music:before {
+    font-size: 50%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+    margin-block-end: 0px;
+    margin-block-start: 45px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 45px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 45px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .header {
+    /* content de l'avatar */
+    height: 11%;
+    font-size: 85%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 85%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 28%;
+    margin-left: 29%;
+    margin-top: -16%;
+  }
+
+  .card1 {
+    font-size: 214%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card2 {
+    font-size: 170%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card3 {
+    font-size: 98%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card4 {
+    font-size: 98%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 60px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+  }
+
+  .row {
+    margin: 2%;
+  }
+
+  .fa-music:before {
+    font-size: 84%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+    margin-block-end: 0px;
+    margin-block-start: 100px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 84px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 86px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  .header {
+    /* content de l'avatar */
+    height: 10%;
+    font-size: 96%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 100%;
+    height: 9%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 28%;
+    margin-left: 31%;
+    margin-top: -16%;
+    margin-bottom: 7%;
+  }
+
+  .card1 {
+    font-size: 214%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card2 {
+    font-size: 170%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card3 {
+    font-size: 98%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card4 {
+    font-size: 98%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 60px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+  }
+
+  .row {
+    margin: 2%;
+  }
+
+  .fa-music:before {
+    font-size: 84%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+    margin-block-end: 0px;
+    margin-block-start: 100px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 84px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 86px;
+  }
+
+  p.next {
+    font-size: 23px;
+  }
+
+  .btn {
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+  .header {
+    /* content de l'avatar */
+    height: 10%;
+    font-size: 111%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 139%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 28%;
+    margin-left: 31%;
+    margin-top: -16%;
+    margin-bottom: 7%;
+  }
+
+  .card1 {
+    font-size: 273%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card2 {
+    font-size: 250%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card3 {
+    font-size: 122%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card4 {
+    font-size: 122%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 111px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+  }
+
+  .row {
+    margin: 2%;
+  }
+
+  .fa-music:before {
+    font-size: 115%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+    margin-block-end: 0px;
+    margin-block-start: 148px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 150px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 150px;
+  }
+
+  p.next {
+    font-size: 30px;
+  }
+
+  .btn {
+    padding: 3%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .header {
+    /* content de l'avatar */
+    height: 12%;
+    font-size: 208%;
+    /* center avatar */
+  }
+
+  ul {
+    font-size: 350%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 28%;
+    margin-left: 34%;
+    margin-top: -16%;
+    margin-bottom: 7%;
+  }
+
+  .card1 {
+    font-size: 481%;
+    padding: 20px;
+    padding-bottom: 76%;
+    height: 21%;
+    width: 85%;
+  }
+
+  .card2 {
+    font-size: 456%;
+    padding: 20px;
+    padding-bottom: 76%;
+    height: 21%;
+    width: 85%;
+  }
+
+  .card3 {
+    font-size: 258%;
+    padding: 20px;
+    padding-bottom: 76%;
+    height: 21%;
+    width: 85%;
+  }
+
+  .card4 {
+    font-size: 258%;
+    padding: 20px;
+    padding-bottom: 76%;
+    height: 21%;
+    width: 85%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 309px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+  }
+
+  .row {
+    margin: 2%;
+  }
+
+  .fa-music:before {
+    font-size: 115%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+    margin-block-end: 0px;
+    margin-block-start: 349px;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 335px;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-block-end: 0px;
+    margin-block-start: 335px;
+  }
+
+  p.next {
+    font-size: 63px;
+  }
+
+  .btn {
+    padding: 5%;
+  }
+}
 /*MAIN.CSS*/
 ul {
   list-style-type: none;
@@ -362,6 +1422,7 @@ ul {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 15;
 }
 
 li {
@@ -505,9 +1566,18 @@ li a:hover:not(.active) {
   background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 156%;
+  font-size: 500%;
   font-family: Dancing Script;
   padding-bottom: 8%;
+  font-weight: bold;
+}
+
+.ledélicemini {
+  background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 156%;
+  font-family: Dancing Script;
   font-weight: bold;
 }
 
@@ -529,6 +1599,20 @@ li a:hover:not(.active) {
   padding: 10%;
 }
 
+.lanote {
+  color: black;
+  font-size: 200%;
+  font-family: Caveat;
+  padding: 8%;
+}
+
+.lanotemini {
+  color: black;
+  font-size: 80%;
+  font-family: Caveat;
+  padding: 4%;
+}
+
 /*grille des menus table*/
 table, td, th {
   text-align: left;
@@ -547,13 +1631,6 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
 .header {
   background-color: #579c87;
   padding: 20px;
@@ -568,6 +1645,10 @@ body {
 
 .active {
   background-color: #4CAF50;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

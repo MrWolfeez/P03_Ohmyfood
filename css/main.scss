@@ -17,6 +17,7 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 15;
   }
   li {
     float: left;
@@ -167,9 +168,18 @@ ul {
     background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 156%;
+    font-size: 500%;
     font-family: Dancing Script;
     padding-bottom: 8%;
+    font-weight: bold;
+  }
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    
     font-weight: bold;
   }
   .lapalettemini {
@@ -188,6 +198,19 @@ ul {
     font-family: Merienda One;
     padding: 10%;
   }
+  .lanote {
+    color: black;
+    font-size: 200%;
+    font-family: Caveat;
+    padding: 8%;
+  }
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+  }
+
   /*grille des menus table*/
   table, td, th {
     text-align: left;
@@ -205,13 +228,7 @@ ul {
   body {
     margin: 0;
   }
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
+
   .header {
     background-color: #579c87;
     padding: 20px;
@@ -226,4 +243,7 @@ ul {
   }
   .active {
     background-color: #4CAF50;
+  }
+  a {
+    text-decoration: none;
   }

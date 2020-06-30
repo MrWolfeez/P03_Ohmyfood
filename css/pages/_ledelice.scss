@@ -1,12 +1,12 @@
 /*3_ledélice*/
 /*ledélice*/
-h2 {
+h2.délice {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Dancing Script;
 
-  &.background1 {
+  &.backgrounddélice1 {
     position: relative;
     z-index: 1;
 
@@ -29,7 +29,7 @@ h2 {
     }
   }
 
-  &.background2 {
+  &.backgrounddélice2 {
     position: relative;
     z-index: 1;
 
@@ -52,7 +52,7 @@ h2 {
     }
   }
 
-  &.background3 {
+  &.backgrounddélice3 {
     position: relative;
     z-index: 1;
 
@@ -84,6 +84,14 @@ h2 {
   margin-left: 66px;
 }
 .card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
+.card3grand {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   background-color: #f9f9f9;

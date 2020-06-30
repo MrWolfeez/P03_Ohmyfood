@@ -8,14 +8,22 @@
   padding: 31px;
   padding-bottom: 22%;
 }
+.card4grand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fdfffd;
+  margin: 12%;
+  padding: 31px;
+  padding-bottom: 22%;
+}
 /*lapalette*/
-h2 {
+h2.palette {
   font: 33px sans-serif;
   margin-top: 30px;
   text-align: center;
   font-family: Caveat;
 
-  &.background {
+  &.backgroundlapalette {
     position: relative;
     z-index: 1;
 
