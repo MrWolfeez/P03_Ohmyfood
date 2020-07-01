@@ -3,7 +3,11 @@
 @import "pages/_home";
 @import "pages/_lechic";
 @import "pages/_ledelice";
-@import "global/_responsive";
+@import "global/_responsivehome";
+@import "global/_responsivenote";
+@import "global/_responsivechic";
+@import "global/_responsivedelice";
+@import "global/_responsivepalette";
 
 
 /*MAIN.CSS*/
@@ -202,7 +206,7 @@ ul {
     color: black;
     font-size: 200%;
     font-family: Caveat;
-    padding: 8%;
+    
   }
   .lanotemini {
     color: black;
