@@ -1422,7 +1422,7 @@ h2.délice.backgrounddélice3 span {
     font-size: 92%;
     font-family: Caveat;
     margin-block-end: 11px;
-    margin-block-start: 12px;
+    margin-block-start: 40px;
   }
 
   .card1grand {
@@ -1493,7 +1493,7 @@ h2.délice.backgrounddélice3 span {
 
   .table1 {
     border-collapse: collapse;
-    width: 94%;
+    width: 88%;
     font-size: 21px;
     font-family: Caveat;
     margin: 18px;
@@ -1521,17 +1521,17 @@ h2.délice.backgrounddélice3 span {
 
   h2.lanote {
     color: black;
-    font-size: 115%;
+    font-size: 167%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 12px;
+    margin-block-end: 46px;
+    margin-block-start: 30px;
   }
 
   .card1grand {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcdfdb;
     margin: 12%;
-    padding: 6px;
+    padding: 43px;
     padding-bottom: 11%;
     text-align: center;
     font-family: Caveat;
@@ -1542,10 +1542,10 @@ h2.délice.backgrounddélice3 span {
 
   .table1 {
     border-collapse: collapse;
-    width: 94%;
-    font-size: 21px;
+    width: 99%;
+    font-size: 20px;
     font-family: Caveat;
-    margin: 18px;
+    margin: 3px;
   }
 
   h2.note {
@@ -1555,7 +1555,7 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     font-weight: bold;
     margin-block-end: 0px;
-    margin-block-start: 0px;
+    margin-block-start: 65px;
   }
 
   h2.note.backgroundnote span {
@@ -1570,17 +1570,17 @@ h2.délice.backgrounddélice3 span {
 
   h2.lanote {
     color: black;
-    font-size: 115%;
+    font-size: 178%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 12px;
+    margin-block-end: 51px;
+    margin-block-start: 43px;
   }
 
   .card1grand {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcdfdb;
     margin: 12%;
-    padding: 6px;
+    padding: 40px;
     padding-bottom: 11%;
     text-align: center;
     font-family: Caveat;
@@ -1591,10 +1591,10 @@ h2.délice.backgrounddélice3 span {
 
   .table1 {
     border-collapse: collapse;
-    width: 94%;
-    font-size: 21px;
+    width: 97%;
+    font-size: 24px;
     font-family: Caveat;
-    margin: 18px;
+    margin: 9px;
   }
 
   h2.note {
@@ -1604,7 +1604,8 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     font-weight: bold;
     margin-block-end: 0px;
-    margin-block-start: 0px;
+    margin-block-start: 87px;
+    font-size: 33px;
   }
 
   h2.note.backgroundnote span {
@@ -1622,28 +1623,28 @@ h2.délice.backgrounddélice3 span {
     font-size: 115%;
     font-family: Caveat;
     margin-block-end: 11px;
-    margin-block-start: 12px;
+    margin-block-start: 64px;
   }
 
   .card1grand {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcdfdb;
     margin: 12%;
-    padding: 6px;
+    padding: 60px;
     padding-bottom: 11%;
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    font-size: 159%;
+    font-size: 312%;
     margin-bottom: 37%;
   }
 
   .table1 {
     border-collapse: collapse;
-    width: 94%;
-    font-size: 21px;
+    width: 100%;
+    font-size: 31px;
     font-family: Caveat;
-    margin: 18px;
+    margin: 0px;
   }
 
   h2.note {
@@ -1653,7 +1654,8 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     font-weight: bold;
     margin-block-end: 0px;
-    margin-block-start: 0px;
+    margin-block-start: 104px;
+    font-size: 40px;
   }
 
   h2.note.backgroundnote span {
@@ -1671,26 +1673,26 @@ h2.délice.backgrounddélice3 span {
     font-size: 115%;
     font-family: Caveat;
     margin-block-end: 11px;
-    margin-block-start: 12px;
+    margin-block-start: 64px;
   }
 
   .card1grand {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcdfdb;
     margin: 12%;
-    padding: 6px;
+    padding: 60px;
     padding-bottom: 11%;
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    font-size: 159%;
+    font-size: 606%;
     margin-bottom: 37%;
   }
 
   .table1 {
     border-collapse: collapse;
-    width: 94%;
-    font-size: 21px;
+    width: 97%;
+    font-size: 45px;
     font-family: Caveat;
     margin: 18px;
   }
@@ -1702,12 +1704,268 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     font-weight: bold;
     margin-block-end: 0px;
-    margin-block-start: 0px;
+    margin-block-start: 83px;
+    font-size: 67px;
   }
 
   h2.note.backgroundnote span {
     background: #fcdfdb;
     padding: 0px 18px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 37%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 10px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 230%;
+    padding: 5%;
+    height: 2%;
+    width: 89%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 10px;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 10px;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 10px;
+  }
+
+  .lechic {
+    padding: 3%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 350%;
+    margin-top: 24%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 37%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 15px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 253%;
+    padding: 4%;
+    height: 2%;
+    width: 91%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 24px;
+    font-size: 101%;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 21px;
+    font-size: 101%;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 21px;
+    font-size: 101%;
+  }
+
+  .lechic {
+    padding: 3%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 436%;
+    margin-top: 24%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 37%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 39px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 279%;
+    padding: 2%;
+    height: 3%;
+    width: 98%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 17px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 17px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 17px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 24px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 21px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 21px;
+    font-size: 120%;
+  }
+
+  .lechic {
+    padding: 0%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 572%;
+    margin-top: 13%;
   }
 }
 /*MAIN.CSS*/
@@ -1849,15 +2107,6 @@ li a:hover:not(.active) {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 80%;
-}
-
-.lechic {
-  padding: 10%;
-  font-weight: bold;
-  background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 266%;
 }
 
 .ledélice {
