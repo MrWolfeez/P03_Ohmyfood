@@ -161,15 +161,7 @@ ul {
     font-size: 80%;
   }
   
-  .ledélice {
-    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 500%;
-    font-family: Dancing Script;
-    padding-bottom: 8%;
-    font-weight: bold;
-  }
+
   .ledélicemini {
     background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
     -webkit-background-clip: text;
@@ -187,14 +179,7 @@ ul {
     font-family: Merienda One;
     padding-top: 4%;
   }
-  .lapalette {
-    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 500%;
-    font-family: Merienda One;
-    padding: 10%;
-  }
+ 
   .lanote {
     color: black;
     font-size: 200%;
@@ -214,6 +199,7 @@ ul {
   }
   th, td {
     padding: 15px;
+    width: 100%;
   }
   
   /*prix en gras*/

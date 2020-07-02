@@ -105,6 +105,7 @@ h2.palette.backgroundlapalette {
   z-index: 1;
 }
 h2.palette.backgroundlapalette:before {
+  display: none;
   background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
   content: "";
   margin: 14px auto;
@@ -115,6 +116,9 @@ h2.palette.backgroundlapalette:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+h2.palette.backgroundlapalette:hover:before {
+  display: block;
 }
 h2.palette.backgroundlapalette span {
   background: #fdfffd;
@@ -202,6 +206,7 @@ h2.chic.backgroundchic1 {
   z-index: 1;
 }
 h2.chic.backgroundchic1:before {
+  display: none;
   background: #c67412;
   content: "";
   margin: 14px auto;
@@ -212,6 +217,9 @@ h2.chic.backgroundchic1:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+h2.chic.backgroundchic1:hover:before {
+  display: block;
 }
 h2.chic.backgroundchic1 span {
   color: #c67412;
@@ -224,6 +232,7 @@ h2.chic.backgroundchic2 {
   z-index: 1;
 }
 h2.chic.backgroundchic2:before {
+  display: none;
   background: #a56799;
   content: "";
   margin: 14px auto;
@@ -234,6 +243,9 @@ h2.chic.backgroundchic2:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+h2.chic.backgroundchic2:hover:before {
+  display: block;
 }
 h2.chic.backgroundchic2 span {
   color: #a56799;
@@ -246,6 +258,7 @@ h2.chic.backgroundchic3 {
   z-index: 1;
 }
 h2.chic.backgroundchic3:before {
+  display: none;
   background: #6e4ccc;
   content: "";
   margin: 14px auto;
@@ -256,6 +269,9 @@ h2.chic.backgroundchic3:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+h2.chic.backgroundchic3:hover:before {
+  display: block;
 }
 h2.chic.backgroundchic3 span {
   color: #6e4ccc;
@@ -328,6 +344,7 @@ h2.délice.backgrounddélice1 {
   z-index: 1;
 }
 h2.délice.backgrounddélice1:before {
+  display: none;
   background: #0228dd;
   content: "";
   margin: 14px auto;
@@ -339,6 +356,9 @@ h2.délice.backgrounddélice1:before {
   width: 95%;
   z-index: -1;
 }
+h2.délice.backgrounddélice1:hover:before {
+  display: block;
+}
 h2.délice.backgrounddélice1 span {
   background: #f9f9f9;
   padding: 2px 50px;
@@ -348,6 +368,7 @@ h2.délice.backgrounddélice2 {
   z-index: 1;
 }
 h2.délice.backgrounddélice2:before {
+  display: none;
   background: #0670f3;
   content: "";
   margin: 14px auto;
@@ -359,6 +380,9 @@ h2.délice.backgrounddélice2:before {
   width: 95%;
   z-index: -1;
 }
+h2.délice.backgrounddélice2:hover:before {
+  display: block;
+}
 h2.délice.backgrounddélice2 span {
   background: #f9f9f9;
   padding: 2px 50px;
@@ -368,6 +392,7 @@ h2.délice.backgrounddélice3 {
   z-index: 1;
 }
 h2.délice.backgrounddélice3:before {
+  display: none;
   background: #229df9;
   content: "";
   margin: 14px auto;
@@ -378,6 +403,9 @@ h2.délice.backgrounddélice3:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+h2.délice.backgrounddélice3:hover:before {
+  display: block;
 }
 h2.délice.backgrounddélice3 span {
   background: #f9f9f9;
@@ -914,8 +942,8 @@ h2.délice.backgrounddélice3 span {
   }
 
   ul {
-    font-size: 100%;
-    height: 9%;
+    font-size: 123%;
+    height: 8%;
   }
 
   .soon {
@@ -963,7 +991,7 @@ h2.délice.backgrounddélice3 span {
 
   .zoom1 {
     padding: 0px;
-    padding-top: 60px;
+    padding-top: 102px;
   }
 
   .zoom2 {
@@ -1039,7 +1067,7 @@ h2.délice.backgrounddélice3 span {
     -webkit-text-fill-color: transparent;
     font-size: 80%;
     margin-block-end: 0px;
-    margin-block-start: 100px;
+    margin-block-start: 133px;
   }
 
   .lapalettemini {
@@ -1048,9 +1076,9 @@ h2.délice.backgrounddélice3 span {
     -webkit-text-fill-color: transparent;
     font-size: 150%;
     font-family: Merienda One;
-    padding-top: 4%;
+    padding-top: 17%;
     margin-block-end: 0px;
-    margin-block-start: 84px;
+    margin-block-start: 133px;
   }
 
   .ledélicemini {
@@ -1063,7 +1091,7 @@ h2.délice.backgrounddélice3 span {
     font-weight: bold;
     padding-top: 4%;
     margin-block-end: 0px;
-    margin-block-start: 86px;
+    margin-block-start: 133px;
   }
 
   p.next {
@@ -1246,14 +1274,14 @@ h2.délice.backgrounddélice3 span {
 @media screen and (min-width: 1920px) {
   .header {
     /* content de l'avatar */
-    height: 12%;
+    height: 10%;
     font-size: 208%;
     /* center avatar */
   }
 
   ul {
     font-size: 350%;
-    height: 8%;
+    height: 7%;
   }
 
   .soon {
@@ -1568,6 +1596,13 @@ h2.délice.backgrounddélice3 span {
     font-size: 100%;
   }
 
+  .music {
+    background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 79px;
+  }
+
   h2.lanote {
     color: black;
     font-size: 178%;
@@ -1749,19 +1784,19 @@ h2.délice.backgrounddélice3 span {
 
   .tablechic1 {
     border-collapse: collapse;
-    width: 100%;
+    width: 93%;
     font-size: 13px;
     font-family: Old Standard TT;
-    margin: 0px;
+    margin: 9px;
     color: #c67412;
   }
 
   .tablechic3 {
     border-collapse: collapse;
-    width: 100%;
+    width: 93%;
     font-size: 13px;
     font-family: Old Standard TT;
-    margin: 0px;
+    margin: 9px;
     color: #6e4ccc;
   }
 
@@ -1968,6 +2003,902 @@ h2.délice.backgrounddélice3 span {
     margin-top: 13%;
   }
 }
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  .lechic {
+    padding: 0%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 496%;
+    margin-top: 13%;
+  }
+
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 53%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 39px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 279%;
+    padding: 2%;
+    height: 3%;
+    width: 98%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 21px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 103%;
+    font-size: 21px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 21px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 279%;
+    padding: 1%;
+    height: 4%;
+    width: 98%;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 60%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 39px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 279%;
+    padding: 2%;
+    height: 3%;
+    width: 98%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 103%;
+    font-size: 25px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+    font-family: Old Standard TT;
+    margin: 0px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 279%;
+    padding: 1%;
+    height: 4%;
+    width: 98%;
+  }
+
+  .lechic {
+    padding: 9%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 613%;
+    margin-top: 13%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .card2grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 107%;
+    background-color: #fff5fe;
+    margin: 12%;
+    padding: 39px;
+    padding-bottom: 22%;
+    margin-bottom: 43%;
+  }
+
+  .tablechic2 {
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 40px;
+    font-family: Old Standard TT;
+    margin: 27px;
+    color: #a56799;
+  }
+
+  .tablechic1 {
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 40px;
+    font-family: Old Standard TT;
+    margin: 27px;
+    color: #c67412;
+  }
+
+  .tablechic3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 40px;
+    font-family: Old Standard TT;
+    margin: 27px;
+    color: #6e4ccc;
+  }
+
+  h2.chic.backgroundchic1 span {
+    color: #c67412;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic2 span {
+    color: #a56799;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic.backgroundchic3 span {
+    color: #6e4ccc;
+    font-weight: bold;
+    background: #fff5fe;
+    padding: 0px 30px;
+    font-size: 120%;
+  }
+
+  h2.chic {
+    font: 41px sans-serif;
+    margin-top: 148px;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 326%;
+    padding: 0%;
+    height: 4%;
+    width: 98%;
+  }
+
+  .lechic {
+    padding: 9%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 613%;
+    margin-top: 13%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 6px;
+    padding-bottom: 22%;
+    font-size: 4px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 96%;
+    padding: 2%;
+    height: 4%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 101%;
+    font-size: 14px;
+    font-family: Dancing Script;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 6px;
+    padding-bottom: 22%;
+    font-size: 4px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 9px;
+    font-size: 18px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 96%;
+    padding: 2%;
+    height: 4%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 101%;
+    font-size: 14px;
+    font-family: Dancing Script;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 29px;
+    padding-bottom: 22%;
+    font-size: 7px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 27px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 27px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 27px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 39px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 100%;
+    padding: 0%;
+    height: 7%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 19px;
+    font-family: Dancing Script;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 40px;
+    padding-bottom: 22%;
+    font-size: 9px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 38px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 38px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 38px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 39px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 100%;
+    padding: 0%;
+    height: 7%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+    font-family: Dancing Script;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 49px;
+    padding-bottom: 22%;
+    font-size: 12px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 47px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 47px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 28px;
+    font-size: 47px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 39px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 100%;
+    padding: 0%;
+    height: 7%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 99%;
+    font-size: 30px;
+    font-family: Dancing Script;
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .ledélice {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 673%;
+    font-family: Dancing Script;
+    padding: 7%;
+    font-weight: bold;
+  }
+
+  .card3grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 11%;
+    padding: 89px;
+    padding-bottom: 22%;
+    font-size: 19px;
+  }
+
+  h2.délice.backgrounddélice1 span {
+    background: #f9f9f9;
+    padding: 0px 64px;
+    font-size: 70px;
+  }
+
+  h2.délice.backgrounddélice2 span {
+    background: #f9f9f9;
+    padding: 0px 64px;
+    font-size: 70px;
+  }
+
+  h2.délice.backgrounddélice3 span {
+    background: #f9f9f9;
+    padding: 0px 64px;
+    font-size: 70px;
+  }
+
+  h2.délice {
+    font: 33px sans-serif;
+    margin-top: 106px;
+    text-align: center;
+    font-family: Dancing Script;
+    width: 100%;
+    padding: 0%;
+    height: 6%;
+    /* font-size: 73%; */
+  }
+
+  .table3 {
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 45px;
+    font-family: Dancing Script;
+    margin: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 9px;
+    padding-bottom: 22%;
+    font-size: 3px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 12px;
+    font-size: 23px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 1%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 4%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 102%;
+    font-size: 17px;
+    font-family: Caveat;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 15px;
+    padding-bottom: 22%;
+    font-size: 5px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 12px;
+    font-size: 23px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 1%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 5%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 21px;
+    font-family: Caveat;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 15px;
+    padding-bottom: 22%;
+    font-size: 5px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 12px;
+    font-size: 23px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 1%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 15px;
+    padding-bottom: 22%;
+    font-size: 7px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 24px;
+    font-size: 34px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 1%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 1%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 26px;
+    font-family: Caveat;
+    margin: 9px;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 55px;
+    padding-bottom: 22%;
+    font-size: 8px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 45px;
+    font-size: 47px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 1%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 1%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 31px;
+    font-family: Caveat;
+    margin: 9px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .card4grand {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fdfffd;
+    margin: 12%;
+    padding: 80px;
+    padding-bottom: 22%;
+    font-size: 14px;
+    margin-bottom: 47%;
+  }
+
+  h2.palette.backgroundlapalette span {
+    background: #fdfffd;
+    padding: 0px 65px;
+    font-size: 73px;
+  }
+
+  h2.palette {
+    font: 40px sans-serif;
+    margin-top: 29px;
+    text-align: center;
+    font-family: Caveat;
+    height: 6%;
+    padding: 0%;
+    width: 99%;
+    /* padding-top: 7%; */
+  }
+
+  .lapalette {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 677%;
+    font-family: Merienda One;
+    padding: 1%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 50px;
+    font-family: Caveat;
+    margin: 19px;
+  }
+}
 /*MAIN.CSS*/
 ul {
   list-style-type: none;
@@ -2109,16 +3040,6 @@ li a:hover:not(.active) {
   font-size: 80%;
 }
 
-.ledélice {
-  background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 500%;
-  font-family: Dancing Script;
-  padding-bottom: 8%;
-  font-weight: bold;
-}
-
 .ledélicemini {
   background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
   -webkit-background-clip: text;
@@ -2135,15 +3056,6 @@ li a:hover:not(.active) {
   font-size: 150%;
   font-family: Merienda One;
   padding-top: 4%;
-}
-
-.lapalette {
-  background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 500%;
-  font-family: Merienda One;
-  padding: 10%;
 }
 
 .lanote {
@@ -2166,6 +3078,7 @@ table, td, th {
 
 th, td {
   padding: 15px;
+  width: 100%;
 }
 
 /*prix en gras*/

@@ -28,6 +28,7 @@ h2.palette {
     z-index: 1;
 
     &:before {
+      display: none;
       background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
       content: "";
       margin: 14px auto;
@@ -38,6 +39,12 @@ h2.palette {
       bottom: 0;
       width: 95%;
       z-index: -1;
+    }
+
+    &:hover  {
+      &:before {
+        display: block;
+      }
     }
 
     span {

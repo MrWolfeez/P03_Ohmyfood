@@ -12,6 +12,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
+      display: none;
       background: #c67412;
       content: "";
       margin: 14px auto;
@@ -22,6 +23,12 @@ h2.chic {
       bottom: 0;
       width: 95%;
       z-index: -1;
+    }
+
+    &:hover  {
+      &:before {
+        display: block;
+      }
     }
 
     span {
@@ -37,6 +44,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
+      display: none;
       background: #a56799;
       content: "";
       margin: 14px auto;
@@ -47,6 +55,12 @@ h2.chic {
       bottom: 0;
       width: 95%;
       z-index: -1;
+    }
+
+    &:hover  {
+      &:before {
+        display: block;
+      }
     }
 
     span {
@@ -62,6 +76,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
+      display: none;
       background: #6e4ccc;
       content: "";
       margin: 14px auto;
@@ -72,6 +87,12 @@ h2.chic {
       bottom: 0;
       width: 95%;
       z-index: -1;
+    }
+
+    &:hover  {
+      &:before {
+        display: block;
+      }
     }
 
     span {

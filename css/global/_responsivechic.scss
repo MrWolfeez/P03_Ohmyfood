@@ -11,6 +11,7 @@
         padding-bottom: 22%;
         margin-bottom: 43%;
     }
+
     h2.chic {
         font: 41px sans-serif;
         margin-top: 53px;
@@ -21,6 +22,7 @@
         height: 2%;
         width: 89%;
     }
+
     .tablechic2 {
         border-collapse: collapse;
         width: 100%;
@@ -29,40 +31,46 @@
         margin: 0px;
         color: #a56799;
     }
+
     .tablechic1 {
         border-collapse: collapse;
-        width: 100%;
+        width: 93%;
         font-size: 13px;
         font-family: Old Standard TT;
-        margin: 0px;
+        margin: 9px;
         color: #c67412;
     }
+
     .tablechic3 {
         border-collapse: collapse;
-        width: 100%;
+        width: 93%;
         font-size: 13px;
         font-family: Old Standard TT;
-        margin: 0px;
+        margin: 9px;
         color: #6e4ccc;
     }
+
     h2.chic.backgroundchic1 span {
         color: #c67412;
         font-weight: bold;
         background: #fff5fe;
         padding: 0px 10px;
     }
+
     h2.chic.backgroundchic2 span {
         color: #a56799;
         font-weight: bold;
         background: #fff5fe;
         padding: 0px 10px;
     }
+
     h2.chic.backgroundchic3 span {
         color: #6e4ccc;
         font-weight: bold;
         background: #fff5fe;
         padding: 0px 10px;
     }
+
     .lechic {
         padding: 3%;
         font-weight: bold;
@@ -74,6 +82,7 @@
     }
 
 }
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .card2grand {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -87,6 +96,7 @@
         padding-bottom: 22%;
         margin-bottom: 43%;
     }
+
     h2.chic {
         font: 41px sans-serif;
         margin-top: 53px;
@@ -97,6 +107,7 @@
         height: 2%;
         width: 91%;
     }
+
     .tablechic2 {
         border-collapse: collapse;
         width: 100%;
@@ -105,6 +116,7 @@
         margin: 0px;
         color: #a56799;
     }
+
     .tablechic1 {
         border-collapse: collapse;
         width: 100%;
@@ -113,6 +125,7 @@
         margin: 0px;
         color: #c67412;
     }
+
     .tablechic3 {
         border-collapse: collapse;
         width: 100%;
@@ -121,6 +134,7 @@
         margin: 0px;
         color: #6e4ccc;
     }
+
     h2.chic.backgroundchic1 span {
         color: #c67412;
         font-weight: bold;
@@ -128,6 +142,7 @@
         padding: 0px 24px;
         font-size: 101%;
     }
+
     h2.chic.backgroundchic2 span {
         color: #a56799;
         font-weight: bold;
@@ -135,6 +150,7 @@
         padding: 0px 21px;
         font-size: 101%;
     }
+
     h2.chic.backgroundchic3 span {
         color: #6e4ccc;
         font-weight: bold;
@@ -142,6 +158,7 @@
         padding: 0px 21px;
         font-size: 101%;
     }
+
     .lechic {
         padding: 3%;
         font-weight: bold;
@@ -153,6 +170,7 @@
     }
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .card2grand {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -166,6 +184,7 @@
         padding-bottom: 22%;
         margin-bottom: 43%;
     }
+
     h2.chic {
         font: 41px sans-serif;
         margin-top: 53px;
@@ -176,6 +195,7 @@
         height: 3%;
         width: 98%;
     }
+
     .tablechic2 {
         border-collapse: collapse;
         width: 100%;
@@ -184,6 +204,7 @@
         margin: 0px;
         color: #a56799;
     }
+
     .tablechic1 {
         border-collapse: collapse;
         width: 100%;
@@ -192,6 +213,7 @@
         margin: 0px;
         color: #c67412;
     }
+
     .tablechic3 {
         border-collapse: collapse;
         width: 100%;
@@ -200,6 +222,7 @@
         margin: 0px;
         color: #6e4ccc;
     }
+
     h2.chic.backgroundchic1 span {
         color: #c67412;
         font-weight: bold;
@@ -207,6 +230,7 @@
         padding: 0px 24px;
         font-size: 120%;
     }
+
     h2.chic.backgroundchic2 span {
         color: #a56799;
         font-weight: bold;
@@ -214,6 +238,7 @@
         padding: 0px 21px;
         font-size: 120%;
     }
+
     h2.chic.backgroundchic3 span {
         color: #6e4ccc;
         font-weight: bold;
@@ -221,6 +246,7 @@
         padding: 0px 21px;
         font-size: 120%;
     }
+
     .lechic {
         padding: 0%;
         font-weight: bold;
@@ -232,13 +258,286 @@
     }
 
 }
+
 @media screen and (min-width: 992px) and (max-width: 1260px) {
+    .lechic {
+        padding: 0%;
+        font-weight: bold;
+        background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 496%;
+        margin-top: 13%;
+    }
 
+    .card2grand {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: Old Standard TT;
+        font-weight: bold;
+        font-size: 53%;
+        background-color: #fff5fe;
+        margin: 12%;
+        padding: 39px;
+        padding-bottom: 22%;
+        margin-bottom: 43%;
+    }
+
+    h2.chic {
+        font: 41px sans-serif;
+        margin-top: 53px;
+        text-align: center;
+        font-family: Old Standard TT;
+        font-size: 279%;
+        padding: 2%;
+        height: 3%;
+        width: 98%;
+    }
+
+    .tablechic2 {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 21px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #a56799;
+    }
+
+    .tablechic1 {
+        border-collapse: collapse;
+        width: 103%;
+        font-size: 21px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #c67412;
+    }
+
+    .tablechic3 {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 21px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #6e4ccc;
+    }
+
+    h2.chic.backgroundchic1 span {
+        color: #c67412;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic2 span {
+        color: #a56799;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic3 span {
+        color: #6e4ccc;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic {
+        font: 41px sans-serif;
+        margin-top: 53px;
+        text-align: center;
+        font-family: Old Standard TT;
+        font-size: 279%;
+        padding: 1%;
+        height: 4%;
+        width: 98%;
+    }
 }
+
 @media screen and (min-width: 1260px) and (max-width: 1920px) {
- 
+    .card2grand {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: Old Standard TT;
+        font-weight: bold;
+        font-size: 60%;
+        background-color: #fff5fe;
+        margin: 12%;
+        padding: 39px;
+        padding-bottom: 22%;
+        margin-bottom: 43%;
+    }
+
+    h2.chic {
+        font: 41px sans-serif;
+        margin-top: 53px;
+        text-align: center;
+        font-family: Old Standard TT;
+        font-size: 279%;
+        padding: 2%;
+        height: 3%;
+        width: 98%;
+    }
+
+    .tablechic2 {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 25px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #a56799;
+    }
+
+    .tablechic1 {
+        border-collapse: collapse;
+        width: 103%;
+        font-size: 25px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #c67412;
+    }
+
+    .tablechic3 {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 25px;
+        font-family: Old Standard TT;
+        margin: 0px;
+        color: #6e4ccc;
+    }
+
+    h2.chic.backgroundchic1 span {
+        color: #c67412;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic2 span {
+        color: #a56799;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic3 span {
+        color: #6e4ccc;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic {
+        font: 41px sans-serif;
+        margin-top: 53px;
+        text-align: center;
+        font-family: Old Standard TT;
+        font-size: 279%;
+        padding: 1%;
+        height: 4%;
+        width: 98%;
+    }
+
+    .lechic {
+        padding: 9%;
+        font-weight: bold;
+        background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 613%;
+        margin-top: 13%;
+    }
 }
+
 @media screen and (min-width: 1920px) {
+    .card2grand {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: Old Standard TT;
+        font-weight: bold;
+        font-size: 107%;
+        background-color: #fff5fe;
+        margin: 12%;
+        padding: 39px;
+        padding-bottom: 22%;
+        margin-bottom: 43%;
+    }
 
+    .tablechic2 {
+        border-collapse: collapse;
+        width: 95%;
+        font-size: 40px;
+        font-family: Old Standard TT;
+        margin: 27px;
+        color: #a56799;
+    }
+
+    .tablechic1 {
+        border-collapse: collapse;
+        width: 97%;
+        font-size: 40px;
+        font-family: Old Standard TT;
+        margin: 27px;
+        color: #c67412;
+    }
+
+    .tablechic3 {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 40px;
+        font-family: Old Standard TT;
+        margin: 27px;
+        color: #6e4ccc;
+    }
+
+    h2.chic.backgroundchic1 span {
+        color: #c67412;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic2 span {
+        color: #a56799;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic.backgroundchic3 span {
+        color: #6e4ccc;
+        font-weight: bold;
+        background: #fff5fe;
+        padding: 0px 30px;
+        font-size: 120%;
+    }
+
+    h2.chic {
+        font: 41px sans-serif;
+        margin-top: 148px;
+        text-align: center;
+        font-family: Old Standard TT;
+        font-size: 326%;
+        padding: 0%;
+        height: 4%;
+        width: 98%;
+    }
+
+    .lechic {
+        padding: 9%;
+        font-weight: bold;
+        background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 613%;
+        margin-top: 13%;
+    }
 }
-
