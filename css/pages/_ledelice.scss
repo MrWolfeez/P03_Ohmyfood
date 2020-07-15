@@ -11,7 +11,7 @@ h2.délice {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #0228dd;
       content: "";
       margin: 14px auto;
@@ -24,11 +24,7 @@ h2.délice {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+    
 
     span {
       background: #f9f9f9;
@@ -41,7 +37,7 @@ h2.délice {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #0670f3;
       content: "";
       margin: 14px auto;
@@ -54,11 +50,7 @@ h2.délice {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+    
 
     span {
       background: #f9f9f9;
@@ -71,7 +63,7 @@ h2.délice {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #229df9;
       content: "";
       margin: 14px auto;
@@ -84,11 +76,7 @@ h2.délice {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+   
 
     span {
       background: #f9f9f9;

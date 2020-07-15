@@ -43,7 +43,7 @@ h2.note {
     z-index: 5;
     
     &:before {
-      display: none;
+      
       border-top: 2px solid black;
       content: "";
       margin: 0 auto;
@@ -57,11 +57,7 @@ h2.note {
       
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+    
     
 
     

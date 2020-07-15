@@ -7,9 +7,9 @@
         src = "https://kit.fontawesome.com/367f5ed294.js";
         crossorigin = "anonymous";
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Archivo Black" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo%20Black" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Old%20Standard TT' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -18,23 +18,18 @@
 </head>
 
 <body>
-    <div class="header">
-        <a href="index.html" class="home">ohmyfood</a>
-    </div>
+    <header class="header">
+        <h1><a href="index.html" class="home">ohmyfood</a></h1>
+    </header>
 
-    <ul>
-        <div class="wiggle">
-            <li><a href="mentions.html">Mentions légales</a></li>
-        </div>
-        <div class="wiggle">
-            <li class="float_right"><a href="mailto:someone@yoursite.com">Contactez-nous</a></li>
-
-        </div>
-    </ul>
-    <div class="card2grand">
+    
+    <main class="card2grand">
         <h2 class="lechic">Le chic à la française</h2>
 
-        <h2 class="chic backgroundchic1"><span>Pour se mettre en appétit</span></h2>
+        
+        <div class="link-background">
+            <h2 class="chic backgroundchic1"><span><a href="" class="left">Pour se mettre en appétit</a></span></h2>
+        </div>
 
         <table class="tablechic1">
             <tr>
@@ -79,7 +74,17 @@
                 <td>Millefeuille croustillant</td>
             </tr>
         </table>
-    </div>
+    </main>
+
+    <footer>
+        <div class="wiggle">
+          <nav><a href="mentions.html">Mentions légales</a></nav>
+        </div>
+        <div class="wiggle">
+          <nav class="float_right"><a href="mailto:someone@yoursite.com">Contactez-nous</a></nav>
+          
+        </div>
+    </footer>
 
 </body>
 

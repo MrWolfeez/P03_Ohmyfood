@@ -7,7 +7,7 @@
         src = "https://kit.fontawesome.com/367f5ed294.js";
         crossorigin = "anonymous";
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Archivo Black" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo%20Black" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
 
@@ -18,24 +18,22 @@
 </head>
 
 <body>
-    <div class="header">
-        <a href="index.html" class="home">ohmyfood</a>
-    </div>
+    <header class="header">
+        <h1><a href="index.html" class="home">ohmyfood</a></h1>
+    </header>
 
-    <ul>
-        <div class="wiggle">
-            <li><a href="mentions.html">Mentions légales</a></li>
-        </div>
-        <div class="wiggle">
-            <li class="float_right"><a href="mailto:someone@yoursite.com">Contactez-nous</a></li>
-
-        </div>
-    </ul>
-    <div class="card1grand">
+    
+    <main class="card1grand">
         <h2 class="lanote"><span class="music"><i class="fa fa-music"></i></span></h2>
         <h2 class="lanote">La note enchantée</h2>
 
-        <h2 class="note backgroundnote"><span>Prélude</span></h2>
+        
+
+        <div class="link-background">
+            <h2 class="note backgroundnote"><span><a href="" class="left">Prélude</a></span></h2>
+        </div>
+
+        
 
         <table class="table1">
             <tr>
@@ -58,7 +56,12 @@
             </tr>
         </table>
 
-        <h2 class="note backgroundnote"><span>Point d'orgue</span></h2>
+        
+        <div class="link-background">
+            <h2 class="note backgroundnote"><span><a href="" class="left">Point d'orgue</a></span></h2>
+        </div>
+
+
         <table class="table1">
             <tr>
                 <td>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</td>
@@ -74,7 +77,12 @@
             </tr>
         </table>
 
-        <h2 class="note backgroundnote"><span>Mouvement finale</span></h2>
+    
+        <div class="link-background">
+            <h2 class="note backgroundnote"><span><a href="" class="left">Mouvement finale</a></span></h2>
+        </div>
+
+
         <table class="table1">
             <tr>
                 <td>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</td>
@@ -87,7 +95,18 @@
             </tr>
         </table>
         <h2 class="lanote"><span class="music"><i class="fa fa-music"></i></span>La note enchantée</h2>
-    </div>
+    </main>
+
+    <footer>
+        <div class="wiggle">
+          <nav><a href="mentions.html">Mentions légales</a></nav>
+        </div>
+        <div class="wiggle">
+          <nav class="float_right"><a href="mailto:someone@yoursite.com">Contactez-nous</a></nav>
+          
+        </div>
+    </footer>
+
 </body>
 
 </html>

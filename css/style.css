@@ -46,7 +46,6 @@ h2.note.backgroundnote {
   z-index: 5;
 }
 h2.note.backgroundnote:before {
-  display: none;
   border-top: 2px solid black;
   content: "";
   margin: 0 auto;
@@ -57,9 +56,6 @@ h2.note.backgroundnote:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.note.backgroundnote:hover:before {
-  display: block;
 }
 h2.note.backgroundnote span {
   background: #fcdfdb;
@@ -105,7 +101,6 @@ h2.palette.backgroundlapalette {
   z-index: 1;
 }
 h2.palette.backgroundlapalette:before {
-  display: none;
   background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
   content: "";
   margin: 14px auto;
@@ -116,9 +111,6 @@ h2.palette.backgroundlapalette:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.palette.backgroundlapalette:hover:before {
-  display: block;
 }
 h2.palette.backgroundlapalette span {
   background: #fdfffd;
@@ -206,7 +198,6 @@ h2.chic.backgroundchic1 {
   z-index: 1;
 }
 h2.chic.backgroundchic1:before {
-  display: none;
   background: #c67412;
   content: "";
   margin: 14px auto;
@@ -217,9 +208,6 @@ h2.chic.backgroundchic1:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.chic.backgroundchic1:hover:before {
-  display: block;
 }
 h2.chic.backgroundchic1 span {
   color: #c67412;
@@ -232,7 +220,6 @@ h2.chic.backgroundchic2 {
   z-index: 1;
 }
 h2.chic.backgroundchic2:before {
-  display: none;
   background: #a56799;
   content: "";
   margin: 14px auto;
@@ -243,9 +230,6 @@ h2.chic.backgroundchic2:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.chic.backgroundchic2:hover:before {
-  display: block;
 }
 h2.chic.backgroundchic2 span {
   color: #a56799;
@@ -258,7 +242,6 @@ h2.chic.backgroundchic3 {
   z-index: 1;
 }
 h2.chic.backgroundchic3:before {
-  display: none;
   background: #6e4ccc;
   content: "";
   margin: 14px auto;
@@ -269,9 +252,6 @@ h2.chic.backgroundchic3:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.chic.backgroundchic3:hover:before {
-  display: block;
 }
 h2.chic.backgroundchic3 span {
   color: #6e4ccc;
@@ -344,7 +324,6 @@ h2.délice.backgrounddélice1 {
   z-index: 1;
 }
 h2.délice.backgrounddélice1:before {
-  display: none;
   background: #0228dd;
   content: "";
   margin: 14px auto;
@@ -356,9 +335,6 @@ h2.délice.backgrounddélice1:before {
   width: 95%;
   z-index: -1;
 }
-h2.délice.backgrounddélice1:hover:before {
-  display: block;
-}
 h2.délice.backgrounddélice1 span {
   background: #f9f9f9;
   padding: 2px 50px;
@@ -368,7 +344,6 @@ h2.délice.backgrounddélice2 {
   z-index: 1;
 }
 h2.délice.backgrounddélice2:before {
-  display: none;
   background: #0670f3;
   content: "";
   margin: 14px auto;
@@ -380,9 +355,6 @@ h2.délice.backgrounddélice2:before {
   width: 95%;
   z-index: -1;
 }
-h2.délice.backgrounddélice2:hover:before {
-  display: block;
-}
 h2.délice.backgrounddélice2 span {
   background: #f9f9f9;
   padding: 2px 50px;
@@ -392,7 +364,6 @@ h2.délice.backgrounddélice3 {
   z-index: 1;
 }
 h2.délice.backgrounddélice3:before {
-  display: none;
   background: #229df9;
   content: "";
   margin: 14px auto;
@@ -403,9 +374,6 @@ h2.délice.backgrounddélice3:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
-}
-h2.délice.backgrounddélice3:hover:before {
-  display: block;
 }
 h2.délice.backgrounddélice3 span {
   background: #f9f9f9;
@@ -459,7 +427,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 85%;
     height: 8%;
   }
@@ -539,31 +507,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 113%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -571,8 +531,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -582,7 +540,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60%;
-    margin-block-end: 0px;
     margin-block-start: 47px;
   }
 
@@ -593,7 +550,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 113%;
     font-family: Merienda One;
     padding-top: 20%;
-    margin-block-end: 0px;
     margin-block-start: 43px;
   }
 
@@ -606,7 +562,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 8%;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 43px;
   }
 
@@ -622,7 +577,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 85%;
     height: 8%;
   }
@@ -702,31 +657,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -734,8 +681,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -745,7 +690,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-end: 0px;
     margin-block-start: 45px;
   }
 
@@ -756,7 +700,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 45px;
   }
 
@@ -769,7 +712,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 45px;
   }
 }
@@ -781,7 +723,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 85%;
     height: 8%;
   }
@@ -862,31 +804,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -894,8 +828,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -905,7 +837,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-end: 0px;
     margin-block-start: 100px;
   }
 
@@ -916,7 +847,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 84px;
   }
 
@@ -929,7 +859,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 86px;
   }
 }
@@ -941,7 +870,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 123%;
     height: 8%;
   }
@@ -1023,31 +952,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -1055,8 +976,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -1066,7 +985,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-end: 0px;
     margin-block-start: 133px;
   }
 
@@ -1077,7 +995,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 17%;
-    margin-block-end: 0px;
     margin-block-start: 133px;
   }
 
@@ -1090,7 +1007,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 133px;
   }
 
@@ -1110,7 +1026,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 139%;
     height: 8%;
   }
@@ -1192,31 +1108,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -1224,8 +1132,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -1235,7 +1141,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-end: 0px;
     margin-block-start: 148px;
   }
 
@@ -1246,7 +1151,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 150px;
   }
 
@@ -1259,7 +1163,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 150px;
   }
 
@@ -1279,7 +1182,7 @@ h2.délice.backgrounddélice3 span {
     /* center avatar */
   }
 
-  ul {
+  .footer {
     font-size: 350%;
     height: 7%;
   }
@@ -1361,31 +1264,23 @@ h2.délice.backgrounddélice3 span {
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lanotemini {
@@ -1393,8 +1288,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   .lechicmini {
@@ -1404,7 +1297,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-end: 0px;
     margin-block-start: 349px;
   }
 
@@ -1415,7 +1307,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 335px;
   }
 
@@ -1428,7 +1319,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-end: 0px;
     margin-block-start: 335px;
   }
 
@@ -2049,7 +1939,7 @@ h2.délice.backgrounddélice3 span {
 
   .tablechic1 {
     border-collapse: collapse;
-    width: 103%;
+    width: 98%;
     font-size: 21px;
     font-family: Old Standard TT;
     margin: 0px;
@@ -2127,7 +2017,7 @@ h2.délice.backgrounddélice3 span {
 
   .tablechic2 {
     border-collapse: collapse;
-    width: 100%;
+    width: 98%;
     font-size: 25px;
     font-family: Old Standard TT;
     margin: 0px;
@@ -2136,7 +2026,7 @@ h2.délice.backgrounddélice3 span {
 
   .tablechic1 {
     border-collapse: collapse;
-    width: 103%;
+    width: 97%;
     font-size: 25px;
     font-family: Old Standard TT;
     margin: 0px;
@@ -2900,7 +2790,7 @@ h2.délice.backgrounddélice3 span {
   }
 }
 /*MAIN.CSS*/
-ul {
+.footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -2912,18 +2802,36 @@ ul {
   z-index: 15;
 }
 
-li {
+a.left {
+  position: relative;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+nav {
   float: left;
 }
-li a {
-  display: block;
+nav a {
   color: #fdcb46;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: ABeeZee;
 }
-li a:hover:not(.active) {
+nav a:hover:not(.active) {
   background-color: #579c87;
 }
 
@@ -3072,11 +2980,14 @@ li a:hover:not(.active) {
 }
 
 /*grille des menus table*/
-table, td, th {
+table,
+td,
+th {
   text-align: left;
 }
 
-th, td {
+th,
+td {
   padding: 15px;
   width: 100%;
 }

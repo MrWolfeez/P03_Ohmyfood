@@ -12,7 +12,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #c67412;
       content: "";
       margin: 14px auto;
@@ -25,11 +25,7 @@ h2.chic {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+   
 
     span {
       color: #c67412;
@@ -44,7 +40,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #a56799;
       content: "";
       margin: 14px auto;
@@ -57,11 +53,7 @@ h2.chic {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+    
 
     span {
       color: #a56799;
@@ -76,7 +68,7 @@ h2.chic {
     z-index: 1;
 
     &:before {
-      display: none;
+      
       background: #6e4ccc;
       content: "";
       margin: 14px auto;
@@ -89,11 +81,7 @@ h2.chic {
       z-index: -1;
     }
 
-    &:hover  {
-      &:before {
-        display: block;
-      }
-    }
+    
 
     span {
       color: #6e4ccc;
