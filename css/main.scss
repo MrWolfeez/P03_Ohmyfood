@@ -9,7 +9,6 @@
 @import "global/_responsivedelice";
 @import "global/_responsivepalette";
 
-
 /*MAIN.CSS*/
 
 .footer {
@@ -24,33 +23,12 @@
   z-index: 15;
 }
 
-a.left {
-  position: relative;
-  
 
-  &:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #FFF;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-
-  &:hover:before {
-    visibility: visible;
-    width: 100%;
-  }
-}
 
 nav {
   float: left;
 
   a {
-
     color: #fdcb46;
     text-align: center;
     padding: 14px 16px;
@@ -67,9 +45,11 @@ nav {
   float: right;
 }
 
-.wiggle a:hover {
-  animation: wiggle 75ms infinite;
-  animation-timing-function: linear;
+.wiggle {
+  &:hover {
+    animation: wiggle 75ms infinite;
+    animation-timing-function: linear;
+  }
 }
 
 @keyframes wiggle {
@@ -182,11 +162,9 @@ nav {
   font-family: ABeeZee;
 }
 
-
-
 /* dégrader et police des titres de chaque menus*/
 .lechicmini {
-  padding-bottom: 8%;
+  padding-top: 37%;
   font-weight: bold;
   background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
   -webkit-background-clip: text;
@@ -194,13 +172,13 @@ nav {
   font-size: 80%;
 }
 
-
 .ledélicemini {
   background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 156%;
   font-family: Dancing Script;
+  padding-top: 32%;
 
   font-weight: bold;
 }
@@ -211,14 +189,13 @@ nav {
   -webkit-text-fill-color: transparent;
   font-size: 150%;
   font-family: Merienda One;
-  padding-top: 4%;
+  padding-top: 31%;
 }
 
 .lanote {
   color: black;
   font-size: 200%;
   font-family: Caveat;
-
 }
 
 .lanotemini {
@@ -246,7 +223,6 @@ td {
   font-weight: bold;
 }
 
-
 body {
   margin: 0;
 }
@@ -265,9 +241,12 @@ body {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 a {
   text-decoration: none;
 }
+
+
+

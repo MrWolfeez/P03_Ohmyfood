@@ -137,3 +137,65 @@ h2.chic {
   margin-left: 66px;
   color: #6e4ccc;
 }
+span.leftchic1 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #c67412;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+span.leftchic2 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #a56799;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+span.leftchic3 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #6e4ccc;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}

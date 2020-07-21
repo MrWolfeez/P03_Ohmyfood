@@ -1,10 +1,14 @@
 @media screen and (max-width: 425px) {
-  .header {
-    /* content de l'avatar */
-    height: 8%;
-    font-size: 67%;
+  nav a {
+    float: left;
+  }
 
-    /* center avatar */
+  .header {
+    
+    height: 8%;
+    font-size: 32%;
+
+   
   }
 
   .footer {
@@ -25,7 +29,7 @@
   .card1 {
     font-size: 95%;
     padding: 26px;
-    padding-bottom: 30%;
+    padding-bottom: 36%;
     height: 21%;
     width: 55%;
   }
@@ -56,33 +60,28 @@
 
   .zoom1 {
     padding: 0px;
-    padding-top: 18px;
 
-
+    height: 100px;
   }
 
   .zoom2 {
     padding: 0px;
-
-
+    height: 100px;
   }
 
   .zoom3 {
     padding: 0px;
-
-
+    height: 100px;
   }
 
   .zoom4 {
     padding: 0px;
-
-
+    height: 100px;
   }
 
   .column {
     float: left;
     width: 47%;
-
   }
 
   .row {
@@ -97,31 +96,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 113%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -129,8 +120,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -140,8 +129,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60%;
-    
-    margin-block-start: 47px;
   }
 
   .lapalettemini {
@@ -151,8 +138,6 @@
     font-size: 113%;
     font-family: Merienda One;
     padding-top: 20%;
-    
-    margin-block-start: 43px;
   }
 
   .ledélicemini {
@@ -164,23 +149,21 @@
     padding-bottom: 8%;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 43px;
   }
 
   p.next {
     font-size: 16px;
-
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .header {
-    /* content de l'avatar */
-    height: 11%;
-    font-size: 85%;
+  nav a {
+    float: left;
+  }
 
-    /* center avatar */
+  .header {
+    height: 11%;
+    font-size: 35%;
   }
 
   .footer {
@@ -192,7 +175,7 @@
     padding: 60px;
     text-align: center;
     color: white;
-    /* font-size: 4%; */
+
     width: 48%;
     margin-left: 12%;
   }
@@ -200,7 +183,7 @@
   .card1 {
     font-size: 115%;
     padding: 26px;
-    padding-bottom: 30%;
+    padding-bottom: 27%;
     height: 21%;
     width: 55%;
   }
@@ -232,32 +215,23 @@
   .zoom1 {
     padding: 0px;
     padding-top: 18px;
-
-
   }
 
   .zoom2 {
     padding: 0px;
-
-
   }
 
   .zoom3 {
     padding: 0px;
-
-
   }
 
   .zoom4 {
     padding: 0px;
-
-
   }
 
   .column {
     float: left;
     width: 50%;
-
   }
 
   .row {
@@ -272,31 +246,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -304,8 +270,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -315,8 +279,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    
-    margin-block-start: 45px;
   }
 
   .lapalettemini {
@@ -326,8 +288,6 @@
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    
-    margin-block-start: 45px;
   }
 
   .ledélicemini {
@@ -339,22 +299,24 @@
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 45px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .header {
-    /* content de l'avatar */
-    height: 11%;
-    font-size: 85%;
+  nav a {
+    float: left;
+  }
 
-    /* center avatar */
+  .header {
+    
+    height: 14%;
+    font-size: 44%;
+
+   
   }
 
   .footer {
-    font-size: 85%;
+    font-size: 92%;
     height: 8%;
   }
 
@@ -371,7 +333,7 @@
   .card1 {
     font-size: 214%;
     padding: 20px;
-    padding-bottom: 61%;
+    padding-bottom: 50%;
     height: 21%;
     width: 77%;
   }
@@ -402,33 +364,24 @@
 
   .zoom1 {
     padding: 0px;
-    padding-top: 60px;
-
-
+    padding-top: 62px;
   }
 
   .zoom2 {
     padding: 0px;
-
-
   }
 
   .zoom3 {
     padding: 0px;
-
-
   }
 
   .zoom4 {
     padding: 0px;
-
-
   }
 
   .column {
     float: left;
     width: 48%;
-
   }
 
   .row {
@@ -443,31 +396,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -475,8 +420,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -486,8 +429,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    
-    margin-block-start: 100px;
   }
 
   .lapalettemini {
@@ -497,8 +438,6 @@
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    
-    margin-block-start: 84px;
   }
 
   .ledélicemini {
@@ -510,23 +449,25 @@
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 86px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1260px) {
+  nav a {
+    float: left;
+  }
+
   .header {
     /* content de l'avatar */
-    height: 10%;
-    font-size: 96%;
+    height: 14%;
+    font-size: 47%;
 
     /* center avatar */
   }
 
   .footer {
     font-size: 123%;
-    height: 8%;
+    height: 10%;
   }
 
   .soon {
@@ -543,7 +484,7 @@
   .card1 {
     font-size: 214%;
     padding: 20px;
-    padding-bottom: 61%;
+    padding-bottom: 44%;
     height: 21%;
     width: 77%;
   }
@@ -574,33 +515,24 @@
 
   .zoom1 {
     padding: 0px;
-    padding-top: 102px;
-
-
+    padding-top: 100px;
   }
 
   .zoom2 {
     padding: 0px;
-
-
   }
 
   .zoom3 {
     padding: 0px;
-
-
   }
 
   .zoom4 {
     padding: 0px;
-
-
   }
 
   .column {
     float: left;
     width: 48%;
-
   }
 
   .row {
@@ -615,31 +547,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -647,8 +571,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -658,8 +580,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    
-    margin-block-start: 133px;
   }
 
   .lapalettemini {
@@ -669,8 +589,6 @@
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 17%;
-    
-    margin-block-start: 133px;
   }
 
   .ledélicemini {
@@ -682,28 +600,25 @@
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 133px;
   }
 
   p.next {
     font-size: 23px;
-
   }
 
   .btn {
     padding: 1%;
   }
-
 }
 
 @media screen and (min-width: 1260px) and (max-width: 1920px) {
-  .header {
-    /* content de l'avatar */
-    height: 10%;
-    font-size: 111%;
+  nav a {
+    float: left;
+  }
 
-    /* center avatar */
+  .header {
+    height: 14%;
+    font-size: 65%;
   }
 
   .footer {
@@ -725,7 +640,7 @@
   .card1 {
     font-size: 273%;
     padding: 20px;
-    padding-bottom: 61%;
+    padding-bottom: 49%;
     height: 21%;
     width: 77%;
   }
@@ -756,33 +671,24 @@
 
   .zoom1 {
     padding: 0px;
-    padding-top: 111px;
-
-
+    padding-top: 102px;
   }
 
   .zoom2 {
     padding: 0px;
-
-
   }
 
   .zoom3 {
     padding: 0px;
-
-
   }
 
   .zoom4 {
     padding: 0px;
-
-
   }
 
   .column {
     float: left;
     width: 48%;
-
   }
 
   .row {
@@ -797,31 +703,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -829,8 +727,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -840,8 +736,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    
-    margin-block-start: 148px;
   }
 
   .lapalettemini {
@@ -851,8 +745,6 @@
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    
-    margin-block-start: 150px;
   }
 
   .ledélicemini {
@@ -864,40 +756,39 @@
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 150px;
   }
 
   p.next {
     font-size: 30px;
-
   }
 
   .btn {
     padding: 3%;
   }
-
 }
 
 @media screen and (min-width: 1920px) {
-  .header {
-    /* content de l'avatar */
-    height: 10%;
-    font-size: 208%;
+  nav a {
+    padding: 18px 36px;
 
-    /* center avatar */
+    float: left;
+  }
+
+  .header {
+    height: 16%;
+    font-size: 110%;
   }
 
   .footer {
-    font-size: 350%;
-    height: 7%;
+    font-size: 250%;
+    height: 8%;
   }
 
   .soon {
     padding: 60px;
     text-align: center;
     color: white;
-    /* font-size: 4%; */
+
     width: 28%;
     margin-left: 34%;
     margin-top: -16%;
@@ -907,7 +798,7 @@
   .card1 {
     font-size: 481%;
     padding: 20px;
-    padding-bottom: 76%;
+    padding-bottom: 61%;
     height: 21%;
     width: 85%;
   }
@@ -938,33 +829,24 @@
 
   .zoom1 {
     padding: 0px;
-    padding-top: 309px;
-
-
+    padding-top: 193px;
   }
 
   .zoom2 {
     padding: 0px;
-
-
   }
 
   .zoom3 {
     padding: 0px;
-
-
   }
 
   .zoom4 {
     padding: 0px;
-
-
   }
 
   .column {
     float: left;
     width: 48%;
-
   }
 
   .row {
@@ -979,31 +861,23 @@
     font-family: Caveat;
     color: #0887fb;
     font-size: 363%;
-    
-    
   }
 
   .menu4 {
     font-family: Caveat;
     color: black;
     font-size: 133%;
-    
-    
   }
 
   .menu3 {
     color: #c77412;
     font-size: 140%;
-    
-    
   }
 
   .menu2 {
     font-family: Caveat;
     color: #56a847;
     font-size: 363%;
-    
-    
   }
 
   .lanotemini {
@@ -1011,8 +885,6 @@
     font-size: 80%;
     font-family: Caveat;
     padding: 4%;
-    
-    
   }
 
   .lechicmini {
@@ -1022,8 +894,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    
-    margin-block-start: 349px;
   }
 
   .lapalettemini {
@@ -1033,8 +903,6 @@
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    
-    margin-block-start: 335px;
   }
 
   .ledélicemini {
@@ -1046,17 +914,13 @@
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    
-    margin-block-start: 335px;
   }
 
   p.next {
     font-size: 63px;
-
   }
 
   .btn {
     padding: 5%;
   }
-
 }

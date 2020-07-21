@@ -49,3 +49,24 @@ h2.palette {
     }
   }
 }
+
+span.leftpalette {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}

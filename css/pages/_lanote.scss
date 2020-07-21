@@ -44,7 +44,7 @@ h2.note {
     
     &:before {
       
-      border-top: 2px solid black;
+      border-top: 6px solid black;
       content: "";
       margin: 0 auto;
       position: absolute;
@@ -69,11 +69,31 @@ h2.note {
   }
 }
 
+span.left {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}
 
 /*le logo de la note*/
 .music {
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 45px;
 }

@@ -108,13 +108,67 @@ h2.délice {
   padding: 31px;
   padding-bottom: 22%;
 }
-/*lechic.html couleur de police x3 différente*/
-.fontcolor1 {
-  color: #c67412;
+
+
+span.leftdelice1 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #0228dd;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
 }
-.fontcolor2 {
-  color: #a56799;
+
+span.leftdelice2 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #0670f3;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
 }
-.fontcolor3 {
-  color: #6e4ccc;
+
+span.leftdelice3 {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: #229df9;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
 }

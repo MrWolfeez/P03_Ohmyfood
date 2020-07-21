@@ -46,7 +46,7 @@ h2.note.backgroundnote {
   z-index: 5;
 }
 h2.note.backgroundnote:before {
-  border-top: 2px solid black;
+  border-top: 6px solid black;
   content: "";
   margin: 0 auto;
   position: absolute;
@@ -62,12 +62,31 @@ h2.note.backgroundnote span {
   padding: 0 50px;
 }
 
+span.left {
+  position: relative;
+}
+span.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 /*le logo de la note*/
 .music {
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 /*4_lapalette*/
@@ -115,6 +134,25 @@ h2.palette.backgroundlapalette:before {
 h2.palette.backgroundlapalette span {
   background: #fdfffd;
   padding: 2px 50px;
+}
+
+span.leftpalette {
+  position: relative;
+}
+span.leftpalette:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(#bfff7e 0%, #56a847 100%);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftpalette:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 /*home*/
@@ -311,6 +349,63 @@ h2.chic.backgroundchic3 span {
   color: #6e4ccc;
 }
 
+span.leftchic1 {
+  position: relative;
+}
+span.leftchic1:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #c67412;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftchic1:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+span.leftchic2 {
+  position: relative;
+}
+span.leftchic2:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #a56799;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftchic2:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+span.leftchic3 {
+  position: relative;
+}
+span.leftchic3:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #6e4ccc;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftchic3:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 /*3_ledélice*/
 /*ledélice*/
 h2.délice {
@@ -406,25 +501,71 @@ h2.délice.backgrounddélice3 span {
   padding-bottom: 22%;
 }
 
-/*lechic.html couleur de police x3 différente*/
-.fontcolor1 {
-  color: #c67412;
+span.leftdelice1 {
+  position: relative;
+}
+span.leftdelice1:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #0228dd;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftdelice1:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
-.fontcolor2 {
-  color: #a56799;
+span.leftdelice2 {
+  position: relative;
+}
+span.leftdelice2:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #0670f3;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftdelice2:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
-.fontcolor3 {
-  color: #6e4ccc;
+span.leftdelice3 {
+  position: relative;
+}
+span.leftdelice3:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #229df9;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+span.leftdelice3:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 @media screen and (max-width: 425px) {
+  nav a {
+    float: left;
+  }
+
   .header {
-    /* content de l'avatar */
     height: 8%;
-    font-size: 67%;
-    /* center avatar */
+    font-size: 32%;
   }
 
   .footer {
@@ -444,7 +585,7 @@ h2.délice.backgrounddélice3 span {
   .card1 {
     font-size: 95%;
     padding: 26px;
-    padding-bottom: 30%;
+    padding-bottom: 36%;
     height: 21%;
     width: 55%;
   }
@@ -475,19 +616,22 @@ h2.délice.backgrounddélice3 span {
 
   .zoom1 {
     padding: 0px;
-    padding-top: 18px;
+    height: 100px;
   }
 
   .zoom2 {
     padding: 0px;
+    height: 100px;
   }
 
   .zoom3 {
     padding: 0px;
+    height: 100px;
   }
 
   .zoom4 {
     padding: 0px;
+    height: 100px;
   }
 
   .column {
@@ -540,7 +684,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60%;
-    margin-block-start: 47px;
   }
 
   .lapalettemini {
@@ -550,7 +693,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 113%;
     font-family: Merienda One;
     padding-top: 20%;
-    margin-block-start: 43px;
   }
 
   .ledélicemini {
@@ -562,7 +704,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 8%;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-start: 43px;
   }
 
   p.next {
@@ -570,11 +711,13 @@ h2.délice.backgrounddélice3 span {
   }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
+  nav a {
+    float: left;
+  }
+
   .header {
-    /* content de l'avatar */
     height: 11%;
-    font-size: 85%;
-    /* center avatar */
+    font-size: 35%;
   }
 
   .footer {
@@ -586,7 +729,6 @@ h2.délice.backgrounddélice3 span {
     padding: 60px;
     text-align: center;
     color: white;
-    /* font-size: 4%; */
     width: 48%;
     margin-left: 12%;
   }
@@ -594,7 +736,7 @@ h2.délice.backgrounddélice3 span {
   .card1 {
     font-size: 115%;
     padding: 26px;
-    padding-bottom: 30%;
+    padding-bottom: 27%;
     height: 21%;
     width: 55%;
   }
@@ -690,7 +832,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-start: 45px;
   }
 
   .lapalettemini {
@@ -700,7 +841,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-start: 45px;
   }
 
   .ledélicemini {
@@ -712,19 +852,20 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-start: 45px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  nav a {
+    float: left;
+  }
+
   .header {
-    /* content de l'avatar */
-    height: 11%;
-    font-size: 85%;
-    /* center avatar */
+    height: 14%;
+    font-size: 44%;
   }
 
   .footer {
-    font-size: 85%;
+    font-size: 92%;
     height: 8%;
   }
 
@@ -741,7 +882,7 @@ h2.délice.backgrounddélice3 span {
   .card1 {
     font-size: 214%;
     padding: 20px;
-    padding-bottom: 61%;
+    padding-bottom: 50%;
     height: 21%;
     width: 77%;
   }
@@ -772,7 +913,7 @@ h2.délice.backgrounddélice3 span {
 
   .zoom1 {
     padding: 0px;
-    padding-top: 60px;
+    padding-top: 62px;
   }
 
   .zoom2 {
@@ -837,7 +978,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-start: 100px;
   }
 
   .lapalettemini {
@@ -847,7 +987,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-start: 84px;
   }
 
   .ledélicemini {
@@ -859,20 +998,23 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-start: 86px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1260px) {
+  nav a {
+    float: left;
+  }
+
   .header {
     /* content de l'avatar */
-    height: 10%;
-    font-size: 96%;
+    height: 14%;
+    font-size: 47%;
     /* center avatar */
   }
 
   .footer {
     font-size: 123%;
-    height: 8%;
+    height: 10%;
   }
 
   .soon {
@@ -889,7 +1031,7 @@ h2.délice.backgrounddélice3 span {
   .card1 {
     font-size: 214%;
     padding: 20px;
-    padding-bottom: 61%;
+    padding-bottom: 44%;
     height: 21%;
     width: 77%;
   }
@@ -912,6 +1054,161 @@ h2.délice.backgrounddélice3 span {
 
   .card4 {
     font-size: 98%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .zoom1 {
+    padding: 0px;
+    padding-top: 100px;
+  }
+
+  .zoom2 {
+    padding: 0px;
+  }
+
+  .zoom3 {
+    padding: 0px;
+  }
+
+  .zoom4 {
+    padding: 0px;
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+  }
+
+  .row {
+    margin: 2%;
+  }
+
+  .fa-music:before {
+    font-size: 84%;
+  }
+
+  .menu1 {
+    font-family: Caveat;
+    color: #0887fb;
+    font-size: 363%;
+  }
+
+  .menu4 {
+    font-family: Caveat;
+    color: black;
+    font-size: 133%;
+  }
+
+  .menu3 {
+    color: #c77412;
+    font-size: 140%;
+  }
+
+  .menu2 {
+    font-family: Caveat;
+    color: #56a847;
+    font-size: 363%;
+  }
+
+  .lanotemini {
+    color: black;
+    font-size: 80%;
+    font-family: Caveat;
+    padding: 4%;
+  }
+
+  .lechicmini {
+    padding-bottom: 8%;
+    font-weight: bold;
+    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80%;
+  }
+
+  .lapalettemini {
+    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+    font-family: Merienda One;
+    padding-top: 17%;
+  }
+
+  .ledélicemini {
+    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156%;
+    font-family: Dancing Script;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-top: 4%;
+  }
+
+  p.next {
+    font-size: 23px;
+  }
+
+  .btn {
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+  nav a {
+    float: left;
+  }
+
+  .header {
+    height: 14%;
+    font-size: 65%;
+  }
+
+  .footer {
+    font-size: 139%;
+    height: 8%;
+  }
+
+  .soon {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    /* font-size: 4%; */
+    width: 28%;
+    margin-left: 31%;
+    margin-top: -16%;
+    margin-bottom: 7%;
+  }
+
+  .card1 {
+    font-size: 273%;
+    padding: 20px;
+    padding-bottom: 49%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card2 {
+    font-size: 250%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card3 {
+    font-size: 122%;
+    padding: 20px;
+    padding-bottom: 61%;
+    height: 21%;
+    width: 77%;
+  }
+
+  .card4 {
+    font-size: 122%;
     padding: 20px;
     padding-bottom: 61%;
     height: 21%;
@@ -945,162 +1242,6 @@ h2.délice.backgrounddélice3 span {
   }
 
   .fa-music:before {
-    font-size: 84%;
-  }
-
-  .menu1 {
-    font-family: Caveat;
-    color: #0887fb;
-    font-size: 363%;
-  }
-
-  .menu4 {
-    font-family: Caveat;
-    color: black;
-    font-size: 133%;
-  }
-
-  .menu3 {
-    color: #c77412;
-    font-size: 140%;
-  }
-
-  .menu2 {
-    font-family: Caveat;
-    color: #56a847;
-    font-size: 363%;
-  }
-
-  .lanotemini {
-    color: black;
-    font-size: 80%;
-    font-family: Caveat;
-    padding: 4%;
-  }
-
-  .lechicmini {
-    padding-bottom: 8%;
-    font-weight: bold;
-    background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 80%;
-    margin-block-start: 133px;
-  }
-
-  .lapalettemini {
-    background: linear-gradient(to right, #56a847 0%, #bfff7e 54%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 150%;
-    font-family: Merienda One;
-    padding-top: 17%;
-    margin-block-start: 133px;
-  }
-
-  .ledélicemini {
-    background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 156%;
-    font-family: Dancing Script;
-    padding-bottom: 0px;
-    font-weight: bold;
-    padding-top: 4%;
-    margin-block-start: 133px;
-  }
-
-  p.next {
-    font-size: 23px;
-  }
-
-  .btn {
-    padding: 1%;
-  }
-}
-@media screen and (min-width: 1260px) and (max-width: 1920px) {
-  .header {
-    /* content de l'avatar */
-    height: 10%;
-    font-size: 111%;
-    /* center avatar */
-  }
-
-  .footer {
-    font-size: 139%;
-    height: 8%;
-  }
-
-  .soon {
-    padding: 60px;
-    text-align: center;
-    color: white;
-    /* font-size: 4%; */
-    width: 28%;
-    margin-left: 31%;
-    margin-top: -16%;
-    margin-bottom: 7%;
-  }
-
-  .card1 {
-    font-size: 273%;
-    padding: 20px;
-    padding-bottom: 61%;
-    height: 21%;
-    width: 77%;
-  }
-
-  .card2 {
-    font-size: 250%;
-    padding: 20px;
-    padding-bottom: 61%;
-    height: 21%;
-    width: 77%;
-  }
-
-  .card3 {
-    font-size: 122%;
-    padding: 20px;
-    padding-bottom: 61%;
-    height: 21%;
-    width: 77%;
-  }
-
-  .card4 {
-    font-size: 122%;
-    padding: 20px;
-    padding-bottom: 61%;
-    height: 21%;
-    width: 77%;
-  }
-
-  .zoom1 {
-    padding: 0px;
-    padding-top: 111px;
-  }
-
-  .zoom2 {
-    padding: 0px;
-  }
-
-  .zoom3 {
-    padding: 0px;
-  }
-
-  .zoom4 {
-    padding: 0px;
-  }
-
-  .column {
-    float: left;
-    width: 48%;
-  }
-
-  .row {
-    margin: 2%;
-  }
-
-  .fa-music:before {
     font-size: 115%;
   }
 
@@ -1141,7 +1282,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-start: 148px;
   }
 
   .lapalettemini {
@@ -1151,7 +1291,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-start: 150px;
   }
 
   .ledélicemini {
@@ -1163,7 +1302,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-start: 150px;
   }
 
   p.next {
@@ -1175,23 +1313,25 @@ h2.délice.backgrounddélice3 span {
   }
 }
 @media screen and (min-width: 1920px) {
+  nav a {
+    padding: 18px 36px;
+    float: left;
+  }
+
   .header {
-    /* content de l'avatar */
-    height: 10%;
-    font-size: 208%;
-    /* center avatar */
+    height: 16%;
+    font-size: 110%;
   }
 
   .footer {
-    font-size: 350%;
-    height: 7%;
+    font-size: 250%;
+    height: 8%;
   }
 
   .soon {
     padding: 60px;
     text-align: center;
     color: white;
-    /* font-size: 4%; */
     width: 28%;
     margin-left: 34%;
     margin-top: -16%;
@@ -1201,7 +1341,7 @@ h2.délice.backgrounddélice3 span {
   .card1 {
     font-size: 481%;
     padding: 20px;
-    padding-bottom: 76%;
+    padding-bottom: 61%;
     height: 21%;
     width: 85%;
   }
@@ -1232,7 +1372,7 @@ h2.délice.backgrounddélice3 span {
 
   .zoom1 {
     padding: 0px;
-    padding-top: 309px;
+    padding-top: 193px;
   }
 
   .zoom2 {
@@ -1297,7 +1437,6 @@ h2.délice.backgrounddélice3 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80%;
-    margin-block-start: 349px;
   }
 
   .lapalettemini {
@@ -1307,7 +1446,6 @@ h2.délice.backgrounddélice3 span {
     font-size: 150%;
     font-family: Merienda One;
     padding-top: 4%;
-    margin-block-start: 335px;
   }
 
   .ledélicemini {
@@ -1319,7 +1457,6 @@ h2.délice.backgrounddélice3 span {
     padding-bottom: 0px;
     font-weight: bold;
     padding-top: 4%;
-    margin-block-start: 335px;
   }
 
   p.next {
@@ -1332,15 +1469,13 @@ h2.délice.backgrounddélice3 span {
 }
 @media screen and (max-width: 425px) {
   .fa-music:before {
-    font-size: 72%;
+    font-size: 39%;
   }
 
   h2.lanote {
     color: black;
     font-size: 92%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 40px;
   }
 
   .card1grand {
@@ -1374,8 +1509,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   h2.note.backgroundnote span {
@@ -1392,8 +1525,6 @@ h2.délice.backgrounddélice3 span {
     color: black;
     font-size: 115%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 12px;
   }
 
   .card1grand {
@@ -1423,8 +1554,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
   }
 
   h2.note.backgroundnote span {
@@ -1441,8 +1570,7 @@ h2.délice.backgrounddélice3 span {
     color: black;
     font-size: 167%;
     font-family: Caveat;
-    margin-block-end: 46px;
-    margin-block-start: 30px;
+    height: 11%;
   }
 
   .card1grand {
@@ -1472,8 +1600,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 65px;
   }
 
   h2.note.backgroundnote span {
@@ -1483,22 +1609,20 @@ h2.délice.backgrounddélice3 span {
 }
 @media screen and (min-width: 992px) and (max-width: 1260px) {
   .fa-music:before {
-    font-size: 100%;
+    font-size: 106%;
   }
 
   .music {
     background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 79px;
+    font-size: 23px;
   }
 
   h2.lanote {
     color: black;
     font-size: 178%;
     font-family: Caveat;
-    margin-block-end: 51px;
-    margin-block-start: 43px;
   }
 
   .card1grand {
@@ -1528,8 +1652,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 87px;
     font-size: 33px;
   }
 
@@ -1547,8 +1669,6 @@ h2.délice.backgrounddélice3 span {
     color: black;
     font-size: 115%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 64px;
   }
 
   .card1grand {
@@ -1578,8 +1698,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 104px;
     font-size: 40px;
   }
 
@@ -1597,8 +1715,6 @@ h2.délice.backgrounddélice3 span {
     color: black;
     font-size: 115%;
     font-family: Caveat;
-    margin-block-end: 11px;
-    margin-block-start: 64px;
   }
 
   .card1grand {
@@ -1628,8 +1744,6 @@ h2.délice.backgrounddélice3 span {
     text-align: center;
     font-family: Caveat;
     font-weight: bold;
-    margin-block-end: 0px;
-    margin-block-start: 83px;
     font-size: 67px;
   }
 
@@ -2547,7 +2661,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 1%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2593,7 +2706,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 1%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2639,7 +2751,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 1%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2677,7 +2788,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 1%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2723,7 +2833,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 1%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2769,7 +2878,6 @@ h2.délice.backgrounddélice3 span {
     height: 6%;
     padding: 0%;
     width: 99%;
-    /* padding-top: 7%; */
   }
 
   .lapalette {
@@ -2802,25 +2910,6 @@ h2.délice.backgrounddélice3 span {
   z-index: 15;
 }
 
-a.left {
-  position: relative;
-}
-a.left:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #FFF;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-a.left:hover:before {
-  visibility: visible;
-  width: 100%;
-}
-
 nav {
   float: left;
 }
@@ -2839,7 +2928,7 @@ nav a:hover:not(.active) {
   float: right;
 }
 
-.wiggle a:hover {
+.wiggle:hover {
   animation: wiggle 75ms infinite;
   animation-timing-function: linear;
 }
@@ -2940,7 +3029,7 @@ nav a:hover:not(.active) {
 
 /* dégrader et police des titres de chaque menus*/
 .lechicmini {
-  padding-bottom: 8%;
+  padding-top: 37%;
   font-weight: bold;
   background: linear-gradient(to right, #c77412 0%, #905bfd 100%);
   -webkit-background-clip: text;
@@ -2954,6 +3043,7 @@ nav a:hover:not(.active) {
   -webkit-text-fill-color: transparent;
   font-size: 156%;
   font-family: Dancing Script;
+  padding-top: 32%;
   font-weight: bold;
 }
 
@@ -2963,7 +3053,7 @@ nav a:hover:not(.active) {
   -webkit-text-fill-color: transparent;
   font-size: 150%;
   font-family: Merienda One;
-  padding-top: 4%;
+  padding-top: 31%;
 }
 
 .lanote {
@@ -3014,7 +3104,7 @@ body {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 a {
