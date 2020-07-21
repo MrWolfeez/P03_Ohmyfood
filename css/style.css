@@ -86,7 +86,7 @@ span.left:hover:before {
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 45px;
+  font-size: 26px;
 }
 
 /*4_lapalette*/
@@ -1469,7 +1469,7 @@ span.leftdelice3:hover:before {
 }
 @media screen and (max-width: 425px) {
   .fa-music:before {
-    font-size: 39%;
+    font-size: 109%;
   }
 
   h2.lanote {
